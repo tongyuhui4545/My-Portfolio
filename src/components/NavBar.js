@@ -15,16 +15,18 @@ export default function NavBar() {
           >
             Sam Tong
           </NavLink>
+
           <NavLink
             to="/post"
-            className="inline-flex items-center py-3 px-3 mr-6 rounded text-black text-2xl font-bold"
+            className="inline-flex items-center py-3 px-3 mr-6 rounded text-white text-2xl font-bold"
             activeClassName="text-red-100 bg-red-700"
           >
             Blog Posts
           </NavLink>
+          
           <NavLink
             to="/project"
-            className="inline-flex items-center py-3 px-3 mr-6 rounded text-black text-2xl font-bold"
+            className="inline-flex items-center py-3 px-3 mr-6 rounded text-white text-2xl font-bold"
             activeClassName="text-red-100 bg-red-700"
           >
             Project
@@ -32,7 +34,7 @@ export default function NavBar() {
 
           <NavLink
             to="/about"
-            className="inline-flex items-center py-3 px-3 mr-6 rounded text-black text-2xl font-bold"
+            className="inline-flex items-center py-3 px-3 mr-6 rounded text-white text-2xl font-bold"
             activeClassName="text-red-100 bg-red-700"
           >
             About Me
